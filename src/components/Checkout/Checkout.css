@@ -1,0 +1,24 @@
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.formulario div{
+    width: 35vw;
+    padding-right: 2rem;
+}
+
+.error {
+    color: red;
+}
+
+.checkout strong {
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+}
+
+.checkout p {
+    font-style: italic;
+}

@@ -1,0 +1,11 @@
+.newpredict-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.newpredict-item{
+    margin-left: 1rem;
+    padding: 0;
+    width: 15vw;
+}
