@@ -19,7 +19,7 @@ const Item = ({ usuario, enero, febrero, marzo, abril, mayo, junio, julio, agost
                     <p>Octubre: {octubre}% </p>
                     <p>Noviembre: {noviembre}% </p>
                     <p>Diciembre: {diciembre}% </p>
-                    <h3>Acumulado: {(acumulado.toFixed(4)-1)*100}%</h3>
+                    <h3>Acumulado: {(acumulado.toFixed(2)-1)*100}%</h3>
                     <p>email: {email}</p>
                   </div>
               :   <></>
